@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    background-image: url('./image/img\ \(4\).jpg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.continer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.item{
+    border-radius: 30px;
+    position: relative;
+    background-color: rgb(99, 98, 93,0.3);
+    height: 60%;
+    width: 25%;
+    display: flex;
+    justify-content: center;    
+}
+#avatar{
+    width: 70px;
+    height: auto;
+    border-radius: 35px;
+    margin-top: -30px;
+}
+
+#form-box{
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+}
+
+form{
+    position: absolute;
+}
+.input{
+    width: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 3px;
+}
+#btn{
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.a-tag a{
+    text-decoration: none;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
